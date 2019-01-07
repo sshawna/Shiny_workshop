@@ -193,9 +193,3 @@ shinyUI(
              ) #close tabPanel
   )#close navbarPage
 ) #close shinyUI
-
-
-
-
-
-
