@@ -1,3 +1,4 @@
+
 # server
 observeEvent(input$modal1,{
   showModal(modalDialog(
