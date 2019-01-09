@@ -13,3 +13,5 @@ server <- function(input, output){
 }
 
 shinyApp(ui,server)
+
+#runApp() #alternative to 'Run App' button
