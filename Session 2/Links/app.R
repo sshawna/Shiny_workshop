@@ -2,14 +2,14 @@ library(shiny)
 
 # Define UI for application that draws a histogram
 ui = fluidPage(
-  uiOutput("tab"),
+  uiOutput("link1"),
   htmlOutput("text")
 )
 
 # Define server logic required to draw a histogram
 server = function(input, output, session){
   url = a("Google Homepage", href="https://www.google.com/")
-  output$tab = renderUI({
+  output$link1 = renderUI({
     tagList("URL link:", url)
   })
   
