@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 library(DT)
 library(shiny)
 
