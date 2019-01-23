@@ -2,13 +2,8 @@
 # To show a blank webpage, the starting point of shiny apps
 
 library(shiny)
-library(shinythemes)
 
 ui <- fluidPage(
- 
-  fluidRow(
-    img(src="EMFF_logos.png"),
-           themeSelector())
 )
 
 
